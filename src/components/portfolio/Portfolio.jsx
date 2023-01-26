@@ -1,4 +1,4 @@
-import "./portfolio.css";
+// import "./portfolio.css";
 // import portfolioItems from "./portfolioItems";
 
 const Portfolio = () => {
