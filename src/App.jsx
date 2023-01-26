@@ -12,16 +12,17 @@ import Footer from './components/footer/Footer'
 const App = () => {
   return (
     <>
+    <div>test</div>
     {/* <div>This is an app</div> */}
-      <Header/>
-      <Nav/>
+      {/* <Header/> */}
+      {/* <Nav/> */}
       {/* <About/>
       <Experience/>
       <Services/>
       <Portfolio/>
       <Testimonials/>
       <Contact/> */}
-      <Footer/>
+      {/* <Footer/> */}
     </>
   )
 }
