@@ -2,9 +2,29 @@ import "./nav.css";
 import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
 import { RiServiceLine } from "react-icons/ri";
 import { BiBook, BiMessageSquareDetail } from "react-icons/bi";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
+
+  const updateNav = () => {
+    const sections = document.querySelectorAll("section");
+    sections.forEach((section) => {
+      const rect = section.getBoundingClientRect();
+      if (rect.top > 0 && rect.top < 150) {
+        if (section.id === 'header') {
+          setActiveNav(`#`);
+        } else if (section.id === 'portfolio') {
+          setActiveNav(`#services`);
+        } else {
+          setActiveNav(`#${section.id}`);
+        }
+      }
+    });
+  };
+  useEffect(() => {
+    window.addEventListener("scroll", updateNav);
+  });
 
   return (
     <nav>
