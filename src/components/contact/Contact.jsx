@@ -19,7 +19,6 @@ const Contact = () => {
   
   const form = useRef();
   return (
-    // <div id="contact">Contact</div>
     <section id="contact">
       <h5>Get In Touch</h5>
       <h2>Contact Me</h2>
@@ -52,11 +51,11 @@ const Contact = () => {
           <input
             type="text"
             name="name"
-            placeholder="Your Full Name"
+            placeholder="name"
             required
           />
-          <input type="text" name="email" placeholder="Email" required />
-          <textarea name="message" rows="7" placeholder="Your Message" required></textarea>
+          <input type="text" name="email" placeholder="email" required />
+          <textarea name="message" rows="7" placeholder="what's up?" required></textarea>
           <button type='submit' className="btn btn-primary">Send Message</button>
         </form>
        </div>
