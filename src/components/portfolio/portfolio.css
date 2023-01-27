@@ -1,7 +1,11 @@
 .portfolio__container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  /* grid-template-columns: repeat(3, 1fr); */
   gap: 2.5rem;
+
+  /* updates */
+  grid-template-columns: repeat(2, 1fr);
+  /* justify-items: center; */
 }
 
 .portfolio__item {
@@ -30,6 +34,11 @@
   display: flex;
   gap: 1rem;
   margin-bottom: 1rem;
+}
+
+.portfolio__item-text {
+  color: var(--color-light);
+  margin-top: 0.7rem;
 }
 
 /* ====================== MEDIA QUERIES (MEDIUM DEVICES) ====================== */

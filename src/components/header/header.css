@@ -10,6 +10,15 @@ header {
   position: relative;
 }
 
+small {
+  text-align: center;
+  height: 100%;
+  position: relative;
+  font-size: 0.7rem;
+  color: var(--color-light);
+  font-style: italic;
+}
+
 /*  ============= CTA ============= */
 .cta {
   margin-top: 2.5rem;

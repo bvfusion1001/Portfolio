@@ -44,6 +44,7 @@
 .service__list-icon {
   color: var(--color-primary);
   margin-top: 2px;
+  min-width: 0.8rem;
 }
 
 .service__list p {

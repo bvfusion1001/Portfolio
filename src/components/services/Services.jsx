@@ -8,89 +8,65 @@ const Services = () => {
       <h2>Services</h2>
 
       <div className="container services__container">
-        {/* UI/UX */}
+        {/* FRONTEND */}
         <article className="service">
           <div className="service__head">
-            <h3>UI/UX Design</h3>
+            <h3>Frontend</h3>
           </div>
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+              <p>Create beautiful SPAs from scratch with authentication, routing, and permissions</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+              <p>Create distributed Chrome Extensions with background services and integrations</p>
             </li>
           </ul>
         </article>
 
-        {/* WEB DEVELOPMENT */}
+        {/* BACKEND */}
         <article className="service">
           <div className="service__head">
-            <h3>UI/UX Design</h3>
+            <h3>Backend</h3>
           </div>
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+              <p>Create stateless APIs with authentication and architecture best practices</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+              <p>Create SQL and NoSQL databases with scalability in mind</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+              <p>Design deployment pipelines to promote apps from test to production</p>
             </li>
           </ul>
         </article>
 
-        {/* CONTENT CREATION */}
+        {/* CONSULTING */}
         <article className="service">
           <div className="service__head">
-            <h3>UI/UX Design</h3>
+            <h3>Consulting</h3>
           </div>
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+              <p>Research and balance trade-offs to make challenging technical decisions</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+              <p>Develop thorough POCs while weighing and documenting potential technical solutions</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+              <p>Create delivery focused implementation and release plans</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+              <p>Analyzing and automating processes to optimize resources</p>
             </li>
           </ul>
         </article>
