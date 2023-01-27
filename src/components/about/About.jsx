@@ -20,23 +20,26 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon"/>
               <h5>Experience</h5>
-              <small>X+ Years Work</small>
+              <small>12+ Years Work</small>
             </article>
             <article className="about__card">
               <FiUsers className="about__icon"/>
-              <h5>Clients</h5>
-              <small>XXX+ Worldwide</small>
+              <h5>Lead</h5>
+              <small>2 - 20 Members</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon"/>
               <h5>Projects</h5>
-              <small>XX+ Completed</small>
+              <small>SMB - Enterprise</small>
             </article>
           </div>
 
           <p>
-          I'm baby flexitarian tofu +1, poke williamsburg praxis humblebrag sustainable thundercats chambray chillwave venmo. Deep v pabst kickstarter offal forage echo park affogato, vice prism vibecession banjo bespoke air plant chartreuse. Hoodie banjo locavore microdosing tousled. Banjo single-origin coffee bushwick actually tbh cliche hell of retro. 
-          Dummy text? More like dummy thicc text, amirite?
+          My core passion for optimization, efficiency, and automation apply to most aspects of my work and personal life. With my degree in Applied Mathematics and early start as a Software Engineer I have a strong technical background. I enjoy learning so much that I spend all my free time educating on topics from programming, technology, and systems to cooking, fitness/health, real estate, finance, and video editing.
+          <br/><br/>
+          I spent 6 years as an engineering manager where I guided small and large teams, external third-parties, and related roles like UX, DevOps, Product, and Support to delivering quality products. My spanning skills set and obsession for process allows me to quickly convert technical challenges into educated technical decisions and implementation plans. Interfacing with so many parties and variables has led to my mastery of time management and effective communication which allows me to drive success throughout an organization with many moving pieces.
+          <br/><br/>
+          After a 6 month break from my career pursuing my dream of traveling the world, I've decided to pivot to a role where I can up-skill from managing teams and people to specialist individual contributor, and then to a generalist of the feature development lifecycle. I plan to begin by specializing with software development within the SDLC through learning a wide array of frameworks, languages, and practices, and then broadening my skills outward into systems, architecture, and infrastructure.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
